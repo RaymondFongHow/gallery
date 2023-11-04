@@ -31,7 +31,7 @@
     text-align: center;
     border-width: 0;
     font-size: 2.5vw;
-    text-shadow: 2px 1px 5px rgba(0,0,0,1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
 
     border-radius: 0px;
 
@@ -45,13 +45,14 @@
 .brand {
     display: flex;
     align-items: center;
+    justify-items: left;
 
     color: white;
     font-style: normal;
     text-decoration: none;
     border-width: 0;
     font-size: 150%;
-    text-shadow: 2px 1px 2px rgba(0,0,0,1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
 
     height: 100%;
     padding-top: 5vw;
@@ -65,22 +66,21 @@
     min-height: 0px;
     object-fit: contain;
     padding: 0% 0%;
+
+    filter: drop-shadow(1px 1px 2px #000000);
 }
 
 .brand_box {
     display: flex;
     align-items: center;
+    justify-items: left;
     height: 100%;
-    width: 100%;
-    min-width: 240px;
 }
 
 .brand_box div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    width: 100%;
     padding-left: 1vw;
 }
 
@@ -98,5 +98,5 @@ nav .brand .brand_box .tagline {
     flex: 1;
     font-size: 1.46vw;
     margin: 0% 0%;
-    padding-bottom: 1%;
+    padding-bottom: 1vw;
 }
